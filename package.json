@@ -1,0 +1,43 @@
+{
+  "name": "last-slack",
+  "version": "1.0.0",
+  "description": "Script to send your last playing track on Last.fm to a Slack WebHook",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeromelachaud/last-slack.git"
+  },
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "app": "node index.js",
+    "app:dev": "NODE_ENV=development node index.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "last.fm",
+    "slack"
+  ],
+  "author": "Jerome Lachaud",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/joi": "^15.0.1",
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "commander": "^2.6.0",
+    "dotenv": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-plugin-promise": "^4.0.1"
+  },
+  "engines": {
+    "node": "8.11.3"
+  },
+  "bugs": {
+    "url": "https://github.com/jeromelachaud/last-slack/issues"
+  },
+  "homepage": "https://github.com/jeromelachaud/last-slack#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}
