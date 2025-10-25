@@ -1,3 +1,5 @@
+const promise = require('eslint-plugin-promise')
+
 module.exports = {
   languageOptions: {
     globals: {
@@ -5,7 +7,9 @@ module.exports = {
       node: true,
     },
   },
-  plugins: ['promise'],
+  plugins: {
+    promise,
+  },
   extends: 'eslint:recommended',
   parserOptions: {
     ecmaVersion: 2017,
