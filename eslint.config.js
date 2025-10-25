@@ -1,7 +1,9 @@
 module.exports = {
-  env: {
-    es6: true,
-    node: true,
+  languageOptions: {
+    globals: {
+      es6: true,
+      node: true,
+    },
   },
   plugins: ['promise'],
   extends: 'eslint:recommended',
