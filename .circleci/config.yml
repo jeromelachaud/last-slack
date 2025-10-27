@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: cimg/node:20.19.5
+      - image: cimg/node:22.21.0
 
     working_directory: ~/repo
 
