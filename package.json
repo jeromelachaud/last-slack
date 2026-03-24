@@ -33,7 +33,7 @@
     "globals": "^16.4.0"
   },
   "engines": {
-    "node": "20.20.1"
+    "node": "20.20.2"
   },
   "bugs": {
     "url": "https://github.com/jeromelachaud/last-slack/issues"
