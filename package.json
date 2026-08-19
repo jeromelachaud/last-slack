@@ -20,7 +20,7 @@
   "author": "Jerome Lachaud",
   "license": "MIT",
   "dependencies": {
-    "@hapi/joi": "^17.0.0",
+    "joi": "^17.0.0",
     "axios": "^1.12.2",
     "chalk": "^6.0.0",
     "commander": "^15.0.0",
