@@ -20,20 +20,20 @@
   "author": "Jerome Lachaud",
   "license": "MIT",
   "dependencies": {
-    "@hapi/joi": "^17.0.0",
+    "joi": "^18.0.0",
     "axios": "^1.12.2",
-    "chalk": "^5.6.2",
-    "commander": "^14.0.3",
-    "dotenv": "^17.2.3"
+    "chalk": "^6.0.0",
+    "commander": "^15.0.0",
+    "dotenv": "^18.0.3"
   },
   "devDependencies": {
-    "@eslint/js": "^9.38.0",
-    "eslint": "^9.38.0",
-    "eslint-plugin-promise": "^4.3.1",
-    "globals": "^16.4.0"
+    "@eslint/js": "^10.0.0",
+    "eslint": "^10.9.1",
+    "eslint-plugin-promise": "^7.0.0",
+    "globals": "^17.3.0"
   },
   "engines": {
-    "node": "20.20.0"
+    "node": "20.20.2"
   },
   "bugs": {
     "url": "https://github.com/jeromelachaud/last-slack/issues"
